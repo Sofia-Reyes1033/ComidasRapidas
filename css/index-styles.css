@@ -1,0 +1,32 @@
+.imagen-logo{
+    width: 20%;
+    margin-top: 20%;
+    border-radius: 30px;
+}
+
+.Titulo-menu{
+    font-size: 33px;
+    line-height: 100px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 0px 12px 12px #333;
+}
+
+.menu-boton {
+    margin-top: 20px;
+}
+
+.menu-boton botton{
+    font-size: 23px;
+}
+
+.icono{
+    margin-top: 25px;
+}
+
+.contenedor-menu{
+    border: 12px solid #333;
+    width: 90%;
+    margin-left: 3%;
+    box-shadow: 0px 12px 12px #333;
+}

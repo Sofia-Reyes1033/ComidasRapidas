@@ -1,33 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Latest compiled and minified CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--LLAMAMOS A NUESTRO ESTILOS PERSONALIZADOS-->
+    <link real="stylesheet" href="/css/index-styles.css">
     <title>Donde la otra</title>
 </head>
+
 <body>
-    
+
 </body>
+
 <!--CREAMOS LA CABECERA DE LA PAGINA-->
-<div class="row" >
+<div class=" contenedor-menu row bg-info text-primary">
 <div class="col-sm-1"></div>
 <!--INSERTAMOS UN LOGO-->
-<div class="col-sm-1">LOGO</div>
+<div class="col-sm-1">
+    <img src="/Assets/img/Diseño sin título - 2022-04-29T081958.076.png" alt="no cargar imagen"class="imagen-logo"style="width: 100px;">
+</div>
 <!--Columna en blanco-->
 <div class="col-sm-1"></div>
 <!--colocamos el titulo de la pagina-->
-<div class="col-sm-4">TITULO</div>co
+<div class="col-sm-4 Titulo-menu">
+    TIENDA DONDE LA OTRA
+</div>
 <!--Espacio en blanco-->
 <div class="col-sm-1"></div>
 <!--Espacio para el menu-->
-<div class="col-sm-1">menu</div>
+<div class="col-sm-1 menu-boton">
+    <div class="btn-group">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Sony</button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Tablet</a>
+                  <a class="dropdown-item" href="#">Smartphone</a>
+                </div>
+              </div>
+            </div>
+        </button>
+        <div class="dropdown-menu">
+            
 <!--Espacio para el icono-->
-<div class="col-sm-1">icono</div>
+<div class="col-sm-1">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0z"/>
+        <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708z"/>
+      </svg>
+</div>
 <!--Espacio para el icono-->
-<div class="col-sm-1">icono</div>
+<div class="col-sm-1">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-octagon" viewBox="0 0 16 16">
+        <path d="M4.54.146A.5.5 0 0 1 4.893 0h6.214a.5.5 0 0 1 .353.146l4.394 4.394a.5.5 0 0 1 .146.353v6.214a.5.5 0 0 1-.146.353l-4.394 4.394a.5.5 0 0 1-.353.146H4.893a.5.5 0 0 1-.353-.146L.146 11.46A.5.5 0 0 1 0 11.107V4.893a.5.5 0 0 1 .146-.353zM5.1 1 1 5.1v5.8L5.1 15h5.8l4.1-4.1V5.1L10.9 1z"/>
+        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+      </svg> 
+</div>
 </div>
 <!-- Latest compiled JavaScript -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </html>
